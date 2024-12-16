@@ -1,0 +1,3 @@
+# Improper Access Control in DApp Ownership Transfer
+
+This repository demonstrates a common vulnerability in decentralized applications (DApps): improper access control. The `transferOwnership` function in the `bug.sol` file lacks sufficient security checks, allowing unauthorized parties to potentially take control of the application. The `solution.sol` file provides a corrected version with robust access control mechanisms.
